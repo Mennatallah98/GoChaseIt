@@ -9,7 +9,7 @@ https://github.com/Mennatallah98/GoChaseIt/assets/45118345/f172894b-6187-44c6-8f
 
 This is a template: replace, remove, and add where required. Describe here what this package does and what it's meant for in a few sentences.
 
-**Keywords:** Gazebo, Ros, URDF, C++, Plugins
+**Keywords:** Gazebo, Ros, URDF, C++, Plugins, image processing
 
 
 **Author: Mennatallah Aly<br />**
@@ -183,6 +183,40 @@ Reads temperature measurements and computed the average.
 ## Bugs & Feature Requests
 
 Please report bugs and request features using the [Issue Tracker](https://github.com/ethz-asl/ros_best_practices/issues).
+
+
+## Structure
+
+	└── GoChaseIt
+	    ├── ball_chaser
+	    │   ├── CMakeLists.txt
+	    │   ├── include
+	    │   │   └── ball_chaser
+	    │   ├── launch
+	    │   │   └── ball_chaser.launch
+	    │   ├── package.xml
+	    │   ├── src
+	    │   │   ├── drive_bot.cpp
+	    │   │   └── process_image.cpp
+	    │   └── srv
+	    │       └── DriveToTarget.srv
+	    ├── GoChaseIt.gif
+	    ├── my_robot
+	    │   ├── CMakeLists.txt
+	    │   ├── launch
+	    │   │   ├── robot_description.launch
+	    │   │   └── world.launch
+	    │   ├── meshes
+	    │   │   └── hokuyo.dae
+	    │   ├── package.xml
+	    │   ├── urdf
+	    │   │   ├── my_robot2.gazebo
+	    │   │   ├── my_robot2.xacro
+	    │   │   ├── my_robot.gazebo
+	    │   │   └── my_robot.xacro
+	    │   └── worlds
+	    │       └── myworld.world
+	    └── README.md
 
 
 [ROS]: http://www.ros.org

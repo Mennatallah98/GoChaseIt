@@ -1,9 +1,7 @@
 # GoChaseIt
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-
-https://github.com/Mennatallah98/GoChaseIt/assets/45118345/47689edd-4fbc-4cb7-9716-22e174c808f5
-
+![Example image](GoChaseIt.gif)
 
 
 ## Overview

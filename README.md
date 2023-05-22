@@ -26,7 +26,7 @@ The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Ga
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package using
 
 	cd catkin_workspace/src
-	git clone https://github.com/ethz-asl/ros_best_practices.git
+	git clone https://github.com/Mennatallah98/GoChaseIt.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
 	catkin_make

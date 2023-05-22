@@ -7,7 +7,7 @@ https://github.com/Mennatallah98/GoChaseIt/assets/45118345/f172894b-6187-44c6-8f
 
 ## Overview
 
-This project is the second project in Udacity Robotics Software Engineer nano degree where a robot was built and it has to follow a white ball detected by a camera using a differential drive and it is consisted of 2packgaes : <br>
+This project is the second project in Udacity Robotics Software Engineer nano degree where a robot was built and it has to follow a white ball detected by a camera using a differential drive and it is consisted of 2 packgaes : <br>
 	&emsp; &emsp;-**my_robot**:which contains the URDF of the robot with the attached sensors  <br>
 	&emsp; &emsp;-**ball_chaser**:which contains 2 nodes one to drive the robot and the other to process the image to follow the white ball <br>
 

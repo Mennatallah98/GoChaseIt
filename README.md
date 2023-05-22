@@ -19,14 +19,7 @@ This project is the second project in Udacity Robotics Software Engineer nano de
 
 The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Gazebo 9.0.0
 
-### Building from Source
 
-#### Dependencies
-
-- [Robot Operating System (ROS)](http://wiki.ros.org) (middleware for robotics),
-- [Eigen] (linear algebra library)
-
-	sudo rosdep install --from-paths src
 
 #### Building
 

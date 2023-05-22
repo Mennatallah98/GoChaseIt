@@ -1,6 +1,6 @@
 # GoChaseIt
 
-![Example image](GoChseIt_4_stop.mp4)
+![Example video](GoChseIt_4_stop.mp4)
 
 ## Overview
 

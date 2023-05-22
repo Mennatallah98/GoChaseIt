@@ -54,30 +54,24 @@ Run the launch file starting the driving and the image processing nodes
 
 ## Launch files
 
-* **robot_description.launch:** Runs the robot file and starts the joint publisher robot state publisher
+* **robot_description.launch:** Runs the robot file and starts the joint publisher robot state publisher.
 
-* **world.launch:** Starts rviz and gazebo with the customized world , spawns the robot and launches robot_description
+* **world.launch:** Starts rviz and gazebo with the customized world , spawns the robot and launches robot_description.
 
-* **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball
+* **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball.
  
 ## Nodes
 
-### ros_package_template
+### drive_bot
 
-Reads temperature measurements and computed the average.
-
-
-#### Subscribed Topics
-
-* **`/temperature`** ([sensor_msgs/Temperature])
-
-	The temperature measurements from which the average is computed.
+sends speed commands to the robot according to the place of the dected white ball.
 
 
 #### Published Topics
 
-...
+* **`/cmd_vel`** ([geometry_msgs/Twist])
 
+	The speed to move the robot.
 
 #### Services
 
@@ -121,3 +115,4 @@ Reads temperature measurements and computed the average.
 	    └── README.md
 
 [ROS]: http://www.ros.org
+[geometry_msgs/Twist]: http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html

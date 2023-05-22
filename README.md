@@ -25,20 +25,31 @@ The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Ga
 
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package using
 
-	cd catkin_workspace/src
+	cd catkin_ws/src
+	sudo apt update
 	git clone https://github.com/Mennatallah98/GoChaseIt.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
 	catkin_make
+	
+Source the workspace by adding this line .bashrc
+
+	source ~/catkin_ws/devel/setup.bash
 
 
 ## Usage
 
-Describe the quickest way to run this software, for example:
+In a new terminal
 
-Run the main node with
+Open the world the world in gazebo and rviz with the rbot included
 
-	roslaunch ros_package_template ros_package_template.launch
+	roslaunch my_robot world.launch
+
+In another window 
+
+Run the launch file starting the driving node and the image processing node
+
+	roslaunch ball_chaser ball_chaser.launch
 
 ## Config files
 
@@ -145,3 +156,4 @@ Please report bugs and request features using the [Issue Tracker](https://github
 	    │       └── myworld.world
 	    └── README.md
 
+[ROS]: http://www.ros.org

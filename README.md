@@ -64,7 +64,7 @@ Run the launch file starting the driving and the image processing nodes
 
 ### drive_bot
 
-sends speed commands to the robot according to the place of the dected white ball.
+Sends speed commands to the robot according to the place of the dected white ball.
 
 
 #### Published Topics
@@ -72,15 +72,24 @@ sends speed commands to the robot according to the place of the dected white bal
 * **`/cmd_vel`** ([geometry_msgs/Twist])
 
 	The speed to move the robot.
+	
+		
+### process_image
+
+Detects the white ball in the camera frame and determines its place with respect to the robot.
+
+
+#### Subscribed Topics
+
+* **`/camera/rgb/image_raw`** ([sensor_msgs/Image])
+
+	The camera image from which the ball is detected.
 
 #### Services
 
-* **`get_average`** ([std_srvs/Trigger])
+* **`DriveToTarget`** ([ball_chaser/DriveToTarget])
 
-	Returns information about the current average. For example, you can trigger the computation from the console with
-
-		rosservice call /ros_package_template/get_average
-
+	Sends the robot velocities to drive_bot according to the position of the ball
 
 ## Structure
 
@@ -116,3 +125,5 @@ sends speed commands to the robot according to the place of the dected white bal
 
 [ROS]: http://www.ros.org
 [geometry_msgs/Twist]: http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html
+[sensor_msgs/Image]: http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html
+[ball_chaser/DriveToTarget]: https://github.com/Mennatallah98/GoChaseIt/blob/main/ball_chaser/srv/DriveToTarget.srv

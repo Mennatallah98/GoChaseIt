@@ -12,7 +12,7 @@ This is a template: replace, remove, and add where required. Describe here what 
 **Keywords:** Gazebo, Ros, URDF, C++, Plugins
 
 
-**Author: Mennatallah Aly<br />
+**Author: Mennatallah Aly<br />**
 
 
 The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Gazebo 9.0.0

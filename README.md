@@ -7,7 +7,8 @@ https://github.com/Mennatallah98/GoChaseIt/assets/45118345/f172894b-6187-44c6-8f
 
 ## Overview
 
-This is a template: replace, remove, and add where required. Describe here what this package does and what it's meant for in a few sentences.
+This project is the second project in Udacity Robotics Software Engineer nano degree and it is consisted of 2packgaes : <br>
+	-**myrobot**
 
 **Keywords:** Gazebo, Ros, URDF, C++, Plugins, image processing
 

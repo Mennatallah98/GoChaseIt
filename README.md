@@ -47,7 +47,7 @@ Open the world the world in gazebo and rviz with the rbot included
 
 In another window 
 
-Run the launch file starting the driving node and the image processing node
+Run the launch file starting the driving and the image processing nodes
 
 	roslaunch ball_chaser ball_chaser.launch
 
@@ -101,27 +101,6 @@ Reads temperature measurements and computed the average.
 	Returns information about the current average. For example, you can trigger the computation from the console with
 
 		rosservice call /ros_package_template/get_average
-
-
-#### Parameters
-
-* **`subscriber_topic`** (string, default: "/temperature")
-
-	The name of the input topic.
-
-* **`cache_size`** (int, default: 200, min: 0, max: 1000)
-
-	The size of the cache.
-
-
-### NODE_B_NAME
-
-...
-
-
-## Bugs & Feature Requests
-
-Please report bugs and request features using the [Issue Tracker](https://github.com/ethz-asl/ros_best_practices/issues).
 
 
 ## Structure

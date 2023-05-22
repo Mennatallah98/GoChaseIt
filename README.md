@@ -51,30 +51,15 @@ Run the launch file starting the driving and the image processing nodes
 
 	roslaunch ball_chaser ball_chaser.launch
 
-## Config files
-
-Config file folder/set 1
-
-* **config_file_1.yaml** Shortly explain the content of this config file
-
-Config file folder/set 2
-
-* **...**
 
 ## Launch files
 
-* **launch_file_1.launch:** shortly explain what is launched (e.g standard simulation, simulation with gdb,...)
+* **robot_description.launch:** Runs the robot file and starts the joint publisher robot state publisher
 
-     Argument set 1
+* **world.launch:** Starts rviz and gazebo with the customized world , spawns the robot and launches robot_description
 
-     - **`argument_1`** Short description (e.g. as commented in launch file). Default: `default_value`.
-
-    Argument set 2
-
-    - **`...`**
-
-* **...**
-
+* **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball
+ 
 ## Nodes
 
 ### ros_package_template

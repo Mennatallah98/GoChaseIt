@@ -155,39 +155,33 @@ Please report bugs and request features using the [Issue Tracker](https://github
 
 ## Structure
 
-	└── GoChaseIt
-	    ├── ball_chaser
-	    │   ├── CMakeLists.txt
+	└── GoChaseIt                                   # Go Chase It Project
+	    ├── ball_chaser                             # ball_chaser package
+	    │   ├── CMakeLists.txt                      # compiler instructions
 	    │   ├── include
 	    │   │   └── ball_chaser
-	    │   ├── launch
+	    │   ├── launch                              # launch folder for launch files 
 	    │   │   └── ball_chaser.launch
-	    │   ├── package.xml
-	    │   ├── src
+	    │   ├── package.xml                         # package info 
+	    │   ├── src                                 # source folder for C++ scripts
 	    │   │   ├── drive_bot.cpp
 	    │   │   └── process_image.cpp
-	    │   └── srv
+	    │   └── srv                                 # service folder for ROS services
 	    │       └── DriveToTarget.srv
-	    ├── my_robot
-	    │   ├── CMakeLists.txt
-	    │   ├── launch
+	    ├── my_robot                                # my_robot package
+	    │   ├── CMakeLists.txt                      # compiler instructions
+	    │   ├── launch                              # launch folder for launch files 
 	    │   │   ├── robot_description.launch
 	    │   │   └── world.launch
-	    │   ├── meshes
+	    │   ├── meshes                              # meshes folder for sensors
 	    │   │   └── hokuyo.dae
-	    │   ├── package.xml
-	    │   ├── urdf
+	    │   ├── package.xml                         # package info
+	    │   ├── urdf                                # urdf folder for xarco files
 	    │   │   ├── my_robot2.gazebo
 	    │   │   ├── my_robot2.xacro
 	    │   │   ├── my_robot.gazebo
 	    │   │   └── my_robot.xacro
-	    │   └── worlds
+	    │   └── worlds                              # world folder for world files
 	    │       └── myworld.world
 	    └── README.md
 
-
-[ROS]: http://www.ros.org
-[rviz]: http://wiki.ros.org/rviz
-[Eigen]: http://eigen.tuxfamily.org
-[std_srvs/Trigger]: http://docs.ros.org/api/std_srvs/html/srv/Trigger.html
-[sensor_msgs/Temperature]: http://docs.ros.org/api/sensor_msgs/html/msg/Temperature.html

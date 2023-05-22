@@ -17,7 +17,7 @@ This project is the second project in Udacity Robotics Software Engineer nano de
 **Author: Mennatallah Aly<br />**
 
 
-The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Gazebo 9.0.0
+The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. and Gazebo 9.0.0
 
 
 

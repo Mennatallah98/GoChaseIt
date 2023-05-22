@@ -21,7 +21,7 @@ The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Ga
 
 
 
-### Building from Source
+## Building from Source
 
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package using
 

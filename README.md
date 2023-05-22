@@ -19,40 +19,6 @@ This project is the second project in Udacity Robotics Software Engineer nano de
 
 The GoChaseIt package has been tested under [ROS] Melodic on Ubuntu 18.04. an Gazebo 9.0.0
 
-
-[![Build Status](http://rsl-ci.ethz.ch/buildStatus/icon?job=ros_best_practices)](http://rsl-ci.ethz.ch/job/ros_best_practices/)
-
-
-![Example image](doc/example.jpg)
-
-
-### Publications
-
-If you use this work in an academic context, please cite the following publication(s):
-
-* P. Fankhauser, M. Bloesch, C. Gehring, M. Hutter, and R. Siegwart: **PAPER TITLE**. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2015. ([PDF](http://dx.doi.org/10.3929/ethz-a-010173654))
-
-        @inproceedings{Fankhauser2015,
-            author = {Fankhauser, P\'{e}ter and Hutter, Marco},
-            booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-            title = {{PAPER TITLE}},
-            publisher = {IEEE},
-            year = {2015}
-        }
-
-
-## Installation
-
-### Installation from Packages
-
-To install all packages from the this repository as Debian packages use
-
-    sudo apt-get install ros-noetic-...
-    
-Or better, use `rosdep`:
-
-	sudo rosdep install --from-paths src
-
 ### Building from Source
 
 #### Dependencies
@@ -202,7 +168,6 @@ Please report bugs and request features using the [Issue Tracker](https://github
 	    │   │   └── process_image.cpp
 	    │   └── srv
 	    │       └── DriveToTarget.srv
-	    ├── GoChaseIt.gif
 	    ├── my_robot
 	    │   ├── CMakeLists.txt
 	    │   ├── launch

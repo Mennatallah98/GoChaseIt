@@ -7,9 +7,7 @@ https://github.com/Mennatallah98/GoChaseIt/assets/45118345/f172894b-6187-44c6-8f
 
 ## Overview
 
-This project is the second project in Udacity Robotics Software Engineer nano degree where a robot was built and it has to follow a white ball detected by a camera using a differential drive and it is consisted of 2 packgaes : <br>
-	&emsp; &emsp;-**my_robot**:which contains the URDF of the robot with the attached sensors  <br>
-	&emsp; &emsp;-**ball_chaser**:which contains 2 nodes one to drive the robot and the other to process the image to follow the white ball <br>
+This project is the second project in Udacity Robotics Software Engineer nano degree where a robot was built and it has to follow a white ball detected by a camera using a differential drive and it is consisted of 2 packgaes explored in the packages section.
 
 **Keywords:** Gazebo, Ros, URDF, C++, Plugins, image processing
 
@@ -62,9 +60,11 @@ Run the launch file starting the driving and the image processing nodes
  
 ## Packages
 
-### Ball chaser
+* **my_robot:** Contains the URDF of 2 robots one 2-wheeled under the name of my_robot2 and another 4-wheeled under the name of my_robot with the attached sensors in addition to the world with robot embbeded in it 
 
-#### Nodes
+* **ball_chaser:** Contains 2 nodes one to drive the robot and the other to process the image to follow the white ball
+
+## Nodes
 
  ##### drive_bot
 

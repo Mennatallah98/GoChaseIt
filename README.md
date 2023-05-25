@@ -60,32 +60,36 @@ Run the launch file starting the driving and the image processing nodes
 
 * **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball.
  
-## Nodes
+##Packages
 
-### drive_bot
+### Ball chaser
+
+#### Nodes
+
+##### drive_bot
 
 Sends speed commands to the robot according to the place of the dected white ball.
 
 
-#### Published Topics
+##### Published Topics
 
 * **`/cmd_vel`** ([geometry_msgs/Twist])
 
 	The speed to move the robot.
 	
 		
-### process_image
+#### process_image
 
 Detects the white ball in the camera frame and determines its place with respect to the robot.
 
 
-#### Subscribed Topics
+##### Subscribed Topics
 
 * **`/camera/rgb/image_raw`** ([sensor_msgs/Image])
 
 	The camera image from which the ball is detected.
 
-#### Services
+##### Services
 
 * **`DriveToTarget`** ([ball_chaser/DriveToTarget])
 

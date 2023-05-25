@@ -66,7 +66,7 @@ Run the launch file starting the driving and the image processing nodes
 
 #### Nodes
 
-* ##### drive_bot
+ ##### drive_bot
 
 Sends speed commands to the robot according to the place of the dected white ball.
 
@@ -77,8 +77,8 @@ Sends speed commands to the robot according to the place of the dected white bal
 
 	The speed to move the robot.
 	
-		
-* #### process_image
+***		
+ #### process_image
 
 Detects the white ball in the camera frame and determines its place with respect to the robot.
 

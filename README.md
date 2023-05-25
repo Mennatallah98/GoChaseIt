@@ -94,6 +94,8 @@ Detects the white ball in the camera frame and determines its place with respect
 * **`DriveToTarget`** ([ball_chaser/DriveToTarget])
 
 	Sends the robot velocities to drive_bot according to the position of the ball
+	
+---	
 
 ## Structure
 

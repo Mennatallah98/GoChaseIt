@@ -60,7 +60,7 @@ Run the launch file starting the driving and the image processing nodes
 
 * **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball.
  
-##Packages
+## Packages
 
 ### Ball chaser
 

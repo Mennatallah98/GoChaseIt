@@ -54,7 +54,7 @@ Run the launch file starting the driving and the image processing nodes
 
 * **robot_description.launch:** Runs the robot file and starts the joint publisher robot state publisher.
 
-* **world.launch:** Starts rviz and gazebo with the customized world , spawns the robot and launches robot_description.
+* **world.launch:** Starts [rviz] and gazebo with the customized world , spawns the robot and launches robot_description.
 
 * **ball_chaser.launch:** runs the nodes responsible for driving the and detecting the white ball.
  
@@ -129,6 +129,7 @@ Detects the white ball in the camera frame and determines its place with respect
 	    └── README.md
 
 [ROS]: http://www.ros.org
+[rviz]: http://wiki.ros.org/rviz
 [geometry_msgs/Twist]: http://docs.ros.org/en/melodic/api/geometry_msgs/html/msg/Twist.html
 [sensor_msgs/Image]: http://docs.ros.org/en/noetic/api/sensor_msgs/html/msg/Image.html
 [ball_chaser/DriveToTarget]: https://github.com/Mennatallah98/GoChaseIt/blob/main/ball_chaser/srv/DriveToTarget.srv
